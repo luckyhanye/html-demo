@@ -1,0 +1,15 @@
+@font-face {
+  font-family:homelogo;
+  src: url(../icon-font/iconfont.eot),
+  url(../icon-font/iconfont.woff),
+  url(../icon-font/iconfont.ttf),
+  url(../icon-font/iconfont.svg);
+}
+@font-face {
+  font-family:xinclick;
+  src: url(../icon-font/click/iconfont.eot),
+  url(../icon-font/click/iconfont.woff),
+  url(../icon-font/click/iconfont.ttf),
+  url(../icon-font/click/iconfont.svg);
+}
+

@@ -1,0 +1,29 @@
+@font-face{
+	font-family:'BebasNeue';
+	src:url(../font/BebasNeue-webfont.ttf),
+	url(../font/BebasNeue-webfont.woff),
+	url(../font/BebasNeue-webfont.eot),
+	url(../font/BebasNeue-webfont.svg);
+	}
+@font-face{
+	font-family:'Vera';
+	src:url(../font/Vera-webfont.ttf),
+	url(../font/Vera-webfont.woff),
+	url(../font/Vera-webfont.eot),
+	url(../font/Vera-webfont.svg);
+	}
+@font-face{
+	font-family:'ColabThi';
+	src:url(../fonts/ColabThi-webfont.ttf),
+	url(../font/ColabThi-webfont.woff),
+	url(../font/ColabThi-webfont.eot),
+	url(../font/ColabThi-webfont.svg);
+	}
+
+@font-face {
+  font-family: 'arrow';
+  src: url('../icon-font/iconfont.eot'),
+  url('../icon-font/iconfont.woff'),
+  url('../icon-font/iconfont.ttf'),
+  url('../icon-font/iconfont.svg');
+}

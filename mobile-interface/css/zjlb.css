@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 20px;
+}
+body{
+	font-family:"微软雅黑","黑体";
+}
+ul{
+	list-style:none;
+}
+header{
+	min-width:100%;
+	border-bottom: 0.25rem solid #f2f2f2;
+	border-top: 0.05rem solid #f2f2f2;
+}
+.header-inner{
+	width: 16.77rem;
+	margin: 0 auto;
+	overflow:hidden;
+	padding:0.375rem 0.1rem;
+	/*padding-bottom:0.375rem ;*/
+}
+header img:first-child{
+	width: 0.725rem;
+	float:left;
+}
+header img:last-child{
+	width: 0.85rem;
+	float:right;
+}
+header .canyin-ziben{
+	width: 7.52rem;
+	/*height: 1.27rem;*/
+	border:2px solid #3495e8;
+	overflow:hidden;
+	float:left;
+	background-color: #3495e8;
+	margin-left:3.725rem;
+}
+
+header p{
+	width: 3.72rem;
+	font-size: 0.707rem;
+	float:left;
+	line-height:1.275rem;
+	text-align:center;
+}
+header p:first-child{
+	background-color: white;
+}
+header p:last-child{
+	margin-left: 0.05rem;
+}
+.main{
+	min-width: 100%
+	background-color:white;
+	padding:0.525rem 0.65rem;
+}
+.pic{
+	width: 16.77rem;
+	overflow:hidden;
+	margin-top: 0.525rem;
+}
+.pic:nth-child(1){
+	margin:0;
+}
+.pic>li{
+	width: 8.1rem;
+	height: 10.175rem;
+	float:left;
+	background-image: url(../images/lxl-pic_03.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+.pic>li:last-child{
+	float:right;
+}
+.top-left{
+	float:left;
+	margin-left: 0.375rem;
+	margin-top: 0.375rem;
+}
+.top-left span{
+	display:block;
+	font-size: 0.6rem;
+	width: 0.675rem;
+	border-radius:0.075rem;
+	font-family: arial;
+	line-height: 0.675rem;
+	text-align:center;
+	background-color: #3495e8;
+	color:white;
+}
+h3{
+	font-size: 0.6rem;
+	color:white;
+}
+.top-left>p{
+	font-size: 0.1rem;
+	color:white;
+}
+.pic img{
+	width: 1.2rem;
+	height: 1.075rem;
+	margin-right: 0.375rem;
+	margin-top: 1.15rem;
+	float:right;
+}
+.pic>li ul{
+	position:absolute;
+	left:1.9rem;
+	top:6.5rem;
+}
+
+.pic>li ul li:first-child{
+	margin-left: 0.4rem;
+}
+.pic>li ul img{
+	clear:both;
+	width: 0.475rem;
+	height: 0.525rem;
+	margin-top: 0.6rem;
+	float:left;
+}
+.pic>li ul span{
+	font-size: 0.938rem;
+	float:left;
+	color:white;
+	margin-left: 0.1rem;
+}
+.pic>li ul li:last-child{
+	clear:both;
+}
+a{
+	display:block;
+	width: 4.225rem;
+	border:2px solid white;
+	font-size:0.75rem;
+	color:white;
+	line-height: 1.32rem;
+	text-align:center;
+	text-decoration:none;
+}
+a:hover{
+	background-color: #ccc;
+	color:#fe4810;
+	border:none;
+}
+.pic:nth-child(2)>li:last-child>.top-left>span{
+	background-color: #ccc;
+}
+.pic:nth-child(3) .top-left>span{
+	background-color: #ccc;
+}

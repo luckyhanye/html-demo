@@ -1,0 +1,410 @@
+.mainLeft{
+	width: 592px;
+	background-color: white;
+	border-radius: 5px;
+	padding-bottom: 30px;
+	margin-top: 20px;
+
+	/*float:left;*/
+}
+h3{
+	width: 549px;
+	margin: 0 auto;
+	line-height: 48px;
+	border-bottom:1px dotted #d1d1d1;
+}
+.mainLeft>img{
+	display:block;
+	width: 554px;
+	margin: 16px auto;
+	margin-bottom: 19px;
+}
+.share{
+	width: 554px;
+	background-color: #f3f3f3;
+	padding: 14px 0;
+	margin: 0 auto;
+}
+.love,.number,.comment{
+	border-radius: 5px;
+	text-align:center;
+	border:1px solid #f8b9d1;
+	line-height: 27px;
+	float:left;
+}
+.love{
+	width: 64px;
+	color:white;
+	background-color: #ff8ab7;
+	margin-left: 16px;
+	margin-right: 3px;
+}
+.love:hover{
+	cursor:pointer;
+}
+.love span{
+	font-family: "iconfont";
+	color:#ff408c;
+}
+.comment span{
+	font-family: 'iconfontFir';
+	color:white;
+}
+.comment{
+	width: 64px;
+	background-color: #71c1e7;
+	border:1px solid #9dd6f3;
+	color:white;
+	margin-left: 22px;
+}
+.number{
+	width: 44px;
+	background-color: white;
+	color:#ff579a;
+}
+.share ul{
+	float:right;
+	border-left: 1px solid #e6e6e6;
+	padding: 0 20px;
+}
+.share ul li{
+	float:left;
+	margin-left: 3px;
+}
+.share ul li:first-child{
+	margin-right: 10px;
+}
+.productShow{
+	width: 524px;
+	height: 523px;
+	overflow:hidden;
+	margin: 23px auto;
+	margin-bottom: 30px;
+}
+/*.picShow img{
+	display:block;
+	float:left;
+}*/
+.thumbnail{
+	margin-left: 100px;
+}
+.thumbnail li{
+	position:relative;
+	float:left;
+	margin-right: 20px;
+}
+.thumbnail li:last-child{
+	margin: 0;
+}
+.thumbnail li a{
+	border:2px solid #dedede;
+}
+.thumbnail li>img{
+	width: 11px;
+	position:absolute;
+	left:25px;
+	top:-6px;
+	display:none;
+}
+.thumbnail li:first-child>img{
+	display:block;
+}
+.buyLinks{
+	margin-left: 30px;
+	margin-top: 32px;
+}
+.buyLinks p{
+	width: 250px;
+	margin-left: 3px;
+	line-height: 36px;
+	float:left;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	color:#20a6d2;
+}
+.buyLinks span{
+	float:left;
+	line-height: 36px;
+	color:#79a620;
+	margin-left: 10px;
+}
+.buyLinksSec{
+	width: 530px;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+	border-top:1px solid #e4e4e4;
+	padding: 28px 20px;
+	margin-top: 30px;
+}
+.buyLinks a{
+	float:left;
+	width: 90px;
+	line-height: 36px;
+	text-align: center;
+	background-color: #3fa8d5;
+	border-radius: 5px;
+	color:white;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.label{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+.label li{
+	float:left;
+	margin-right: 5px;
+}
+.label li:first-child{
+	margin-right:13px;
+}
+.label a{
+	line-height: 24px;
+	padding: 0 8px;
+	background-color: #e8e8e8;
+	border-radius: 10px;
+}
+.mainLeft>p{
+	margin-left: 30px;
+	line-height: 57px;
+}
+.mainLeft>p strong{
+	color:#ff66a1;
+}
+.mainLeft>p strong:last-child{
+	color:#55aadd;
+}
+.talking{
+	margin-left: 25px;
+}
+.talking li{
+	width: 518px;
+	padding: 13px;
+	background-color: #f3f3f3;
+	border-radius:5px;
+	margin-bottom: 30px;
+}
+.talkContent{
+	float:left;
+	line-height: 1.5em;
+	color:#999999;
+}
+.talkContent span{
+	color:#fc578f;
+}
+.talking li>span{
+	color:#999999;
+	float:right;
+}
+.page{
+	margin-left:410px;
+}
+.page li{
+	float:left;
+}
+.page li:nth-child(2){
+	margin: 0 8px;
+}
+.page li a{
+	padding: 0 11px;
+	border:1px solid #dedede;
+	border-radius: 5px;
+	color:#fc578f;
+	text-align:center;
+	line-height: 26px;
+}
+.page li:first-child a{
+	border:none;
+	color:black;
+}
+.mainRight,.mainLeft{
+	float:left;
+}
+.mainRight{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.information,.yunLike,.person{
+	width: 321px;
+	border-radius: 5px;
+	background-color: white;
+	padding-top: 19px;
+	padding-bottom: 60px;
+	margin-bottom: 20px;
+}
+.potoChen>img{
+	margin-left: 20px;
+	float:left;
+}
+.potoChen>ul{
+	float:left;
+	margin-left: 15px;
+}
+.potoChen>ul li{
+	margin-bottom: 5px;
+}
+.potoChen>ul li:first-child a{
+	color:#fe6095;
+	font-size: 18px
+}
+.potoChen>ul li:last-child a{
+	width: 65px;
+	line-height: 27px;
+	color:white;
+	text-align: center;
+	background-color: #ff89b7;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+.information>p{
+	color:#999999;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.fans{
+	width: 311px;
+	padding: 20px 0;
+	border-top: 1px dotted #d1d1d1;
+	border-bottom: 1px dotted #d1d1d1;
+	margin: 20px auto;
+
+}
+.fans li{
+	font-size: 14px;
+	float:left;
+	padding: 0 15px;
+	height: 35px;
+	border-left:1px dotted #737372;
+}
+.fans li:first-child span{
+	font-family: "iconfontFir";
+	line-height: 35px;
+	font-size: 26px;
+	color:#7b7f6e;
+}
+.fans li:first-child{
+	border:none;
+}
+.fans strong{
+	color:#05abff;
+	font-size: 18px;
+}
+.fans  li:last-child strong{
+	color:#ff0fc3;
+}
+.fans i{
+	font-family: "iconfont";
+	color:#ff0fc3;
+	font-style:normal;
+}
+.information>p:last-child{
+	color:#ff7497;
+}
+.information>p:last-child span{
+	color:#666668;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.information>p:last-child span:first-child{
+	color:#ff7497;
+}
+/*.yunLick{
+
+}*/
+.yunLike h4,.person h4{
+	color:black;
+	margin-left: 20px;
+	line-height:20px;
+}
+.yunLike img{
+	display:block;
+	width: 207px;
+	margin: 20px auto;
+}
+.yunLike ul{
+	margin: 0 auto;
+	width: 280px;
+	border-bottom:1px dotted #d1d1d1;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.yunLike ul li{
+	font-size: 14px;
+	float:left;
+}
+.yunLike ul li:nth-child(2){
+	margin-left: 100px;
+	margin-right: 20px;
+}
+.yunLike i{
+	font-family: "iconfont";
+	color:#f32a6b;
+	line-height: 20px;
+}
+.yunLike span{
+	color:#f32a6b;
+}
+.change{
+	width: 264px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.change span{
+	display:block;
+	width: 185px;
+	line-height: 30px;
+	color: #666666;
+	background-color: #ededed;
+	float:left;
+	text-indent: 10px;
+}
+.change button{
+	width: 66px;
+	line-height: 29px;
+	text-align:center;
+	background-color: #71c1e4;
+	border-radius: 5px;
+	border:none;
+	float:right;
+}
+.person{
+	padding-bottom: 40px;
+}
+.person ul{
+	margin-left: 20px;
+}
+.person ul li{
+	float:left;
+	margin-left: 24px;
+}
+.person ul li:first-child{
+	margin-left: 0;
+}
+.person ul li div{
+	margin-top: 15px;
+}
+.person ul li div:first-child{
+	margin-top: 5px;
+}
+.person p{
+	width: 50px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	font-size: 13px;
+	color:#fc578f;
+}
+
+
+
+
+
+
+
+
+.thumbnail li .active{
+	border:2px solid #55aadd;
+}

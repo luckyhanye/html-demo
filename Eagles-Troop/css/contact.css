@@ -1,0 +1,86 @@
+.left{
+	overflow:hidden;
+	float:left;
+	margin-right: 21px;
+
+}
+.Form{
+	width: 619px;
+	margin-left: 28px;
+	/*border-bottom: 1px dashed #3c3d3d;*/
+	margin-bottom: 20px;
+	overflow:hidden;
+	padding-bottom: 31px;
+}
+.Form p{
+	width: 300px;
+	line-height: 32px;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 3px;
+	text-indent: 10px;
+}
+.Form p:nth-child(5){
+	width: 602px;
+	height: 326px;
+	margin-bottom: 20px;
+}
+.clear,.send{
+	float:left;
+	width: 106px;
+	line-height: 40px;
+	border-radius: 5px;
+	border-top:1px solid #ea8100;
+	text-align: center;
+	color:white;
+	font-size: 25px;
+	text-shadow:1px 1px 1px #2d2f2f;
+	font-family: Times;
+	background:linear-gradient(#e46200,#cc2800);
+}
+.send{
+	margin-left: 10px;
+}
+.right{
+	float:right;
+	width: 300px;
+}
+article{
+	padding-bottom: 39px;
+}
+
+article img{
+	width: 260px;
+	margin: 29px auto;
+}
+article p{
+	margin-left: 20px;
+	color:#7f7f7f;
+	line-height: 23px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.right ul{
+	margin-left: 20px;
+	margin-top: 25px;
+}
+.right ul li{
+	width: 280px;
+	line-height: 33px;
+	color:#7f7f7f;
+}
+.right span{
+	font-style: normal;
+}
+.right .date{
+	margin-top: 200px;
+}
+.date span{
+	margin-right: 10px;
+}
+i{
+	font-style: normal;
+	margin-left: 31px;
+	color:#cb2800;
+	text-decoration: underline;
+}

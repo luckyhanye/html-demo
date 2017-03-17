@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+i{
+	font-style:normal;
+}
+ul{
+	list-style:none;
+}
+body{
+	font-family: "微软雅黑","黑体";
+}
+html,body{
+	font-size: 20px;
+}
+header{
+	width: 100%;
+	background-color: #0c9ae4;
+	padding-top: 1.175rem;
+	padding-bottom: 1.35rem;
+}
+header .pay{
+	width: 3.125rem;
+	height: 3.125rem;
+	border-radius:50%;
+	box-shadow:0 0 35px 6px rgba(255,255,255,0.6);
+	background-color:white;
+	margin: 0 auto;
+}
+header img{
+	width: 1.85rem;
+	height: 1.35rem;
+	margin-left:0.6rem;
+	margin-top:0.7rem;
+}
+header p{
+	font-size: 0.6rem;
+	text-align:center;
+	margin-top:1rem;
+	margin-left: 0.4rem;
+	color:white;
+}
+form{
+	width: 16.75rem;
+	font-size: 0.675rem;
+	color:#606061;
+	margin: 0 auto;
+}
+label{
+	margin-top: 2rem;
+}
+form span{
+	font-family: 'icon';
+	color:red;
+}
+li{
+	width: 16.75rem;
+	height: 3.075rem;
+	border-bottom:0.025rem solid #ccc;
+}
+input{
+	margin-top: 1.9rem;
+	border:none;
+}
+input:last-child{
+	width: 7.9rem;
+}
+a{
+	display:block;
+	width: 5.65rem;
+	line-height: 1.575rem;
+	color:white;
+	text-decoration:none;
+	background-color: #3495e8;
+	border-radius: 0.125rem;
+	text-align:center;
+	margin: 5.5rem auto;
+	font-size: 0.725rem;
+}

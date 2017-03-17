@@ -1,0 +1,113 @@
+.left{
+	overflow:hidden;
+	float:left;
+	margin-right: 21px;
+
+}
+.Comer,.Minute{
+	width: 619px;
+	margin-left: 28px;
+	border-bottom: 1px dashed #3c3d3d;
+	margin-bottom: 20px;
+	overflow:hidden;
+	padding-bottom: 31px;
+}
+.Minute{
+	border:none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.Comer img{
+	width: 220px;
+	float:left;
+}
+.Comer h2{
+	margin-bottom: 30px;
+}
+.left p{
+
+	line-height: 23px;
+	color:#7f7f7f;
+	margin-bottom: 25px;
+}
+.left .Comer p{
+	width: 348px;
+	float:left;
+	margin-left: 21px;
+}
+
+
+.Minute img{
+	width: 220px;
+	margin-right: 21px;
+	float:left;
+}
+.left ul{
+	float:left;
+	margin-bottom: 19px;
+	
+}
+.left ul li{
+	width: 299px;
+	border-bottom:1px dashed #3c3d3d;
+}
+.left ul li:last-child{
+	border:none;
+}
+.left ul li a{
+	color:white;
+	line-height: 34px;
+	font-style:italic;
+	text-indent: 15px;
+}
+.Minute p:nth-child(5){
+	clear:both;
+	margin-bottom: 25px;
+}
+.right{
+	float:right;
+	width: 300px;
+}
+article{
+	padding-bottom: 39px;
+}
+
+article img{
+	width: 260px;
+	margin: 29px auto;
+}
+article p{
+	margin-left: 20px;
+	color:#7f7f7f;
+	line-height: 23px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.right ul{
+	margin-left: 20px;
+	margin-bottom: 22px;
+}
+.right ul li{
+	width: 280px;
+	border-bottom:1px dashed #3c3d3d;
+	background-image: url(../images/arrowWhite_12.png);
+	background-repeat: no-repeat;
+	list-style-position: inside;
+	background-position: 5px 13px;
+
+}
+.right ul li:last-child{
+	border:none;
+}
+.right ul li a{
+	color:white;
+	line-height: 34px;
+	font-style:italic;
+	text-indent: 15px;
+}
+.right .more{
+	margin-left: 20px;
+}
+article:last-child p{
+	margin-bottom: 20px;
+}

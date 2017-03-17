@@ -1,0 +1,289 @@
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd, 
+keygen,
+label, legend, li, 
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, tdvideo, tt,
+u, ul, 
+var{
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+    vertical-align: top; }
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+table, table td { 
+	padding:0;
+	border:none;
+	border-collapse:collapse;
+}
+img {
+	vertical-align:top; 
+}
+embed { 
+	vertical-align:top;
+}
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+i{
+	font-style: normal;
+}
+.clearfix:before,.clearfix:after {
+	display: block;
+    content: "";
+}
+.clearfix:after{
+	clear:both;
+}
+.headerTop,.nav,.mainBor,.main,footer{
+	min-width:1000px;
+}
+.headerTop{
+	background-image: url(../images/detail-hdbj_02.jpg);
+}
+a{
+	display:block;
+	color:black;
+	text-decoration: none;
+
+}
+.headerTop-inner,.nav-inner,.mainBor-inner,.main-inner,.footer-inner{
+	width: 960px;
+	margin: 0 auto;
+}
+.headerTop img{
+	width: 139px;
+	margin-top: 14px;
+	margin-bottom: 10px;
+	margin-left: 6px;
+	float:left;
+}
+.wenZi{
+	float:left;
+	margin: 19px 0;
+	margin-left: 23px;
+}
+.headerTop p{
+	font-family: "黑体","微软雅黑"
+	width: 137px;
+	font-size: 17px;
+	color:#00a8ff;
+}
+.headerTop a{
+	color:#ff7297;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/icon/iconfont.eot"),
+  url("../fonts/icon/iconfont.svg"),
+  url("../fonts/icon/iconfont.ttf"),
+  url("../fonts/icon/iconfont.woff");
+}
+.iconfont{
+  font-family:"iconfont";
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'iconfontFir';
+  src: url("../fonts/icon/font1/iconfont.eot"),
+  url("../fonts/icon/font1/iconfont.svg"),
+  url("../fonts/icon/font1/iconfont.ttf"),
+  url("../fonts/icon/font1/iconfont.woff");
+}
+.search{
+	float:right;
+	margin-top: 26px;
+	margin-right: 20px;
+}
+.search button{
+	margin-left: -6px;
+	line-height: 15px;
+}
+.nav{
+	background-color: #ff7196;
+}
+.nav li{
+	float:left;
+}
+.nav a{
+	color:white;
+	font-size: 14px;
+	line-height: 36px;
+}
+.navLeft{
+	width: 480px;
+	float:left;
+}
+.navLeft li a:hover{
+	color:red;
+}
+.navLeft li{
+	margin-right: 33px;
+}
+.navLeft li:first-child{
+	margin-left: 2px;
+}
+.navLeft li:last-child{
+	margin-right: 85px;
+}
+.logining li ul{
+	/*overflow:hidden;*/
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	width: 244px;
+	border-radius: 5px;
+	background: linear-gradient(white,#ededed);
+}
+/*.logining{
+	margin-top: 5px;
+}*/
+.logining>li{
+	margin-right: 15px;
+}
+.logining>li:first-child{
+	color:black;
+	margin-top: 5px;
+}
+.logining>li:nth-child(3){
+	margin-left: 15px;
+}
+.logining>li:nth-child(3) a{
+	color:#72bcd0;
+}
+.logining li ul li:nth-child(2){
+	color:#e71f8d;
+}
+.logining li ul span{
+	font-family:"iconfont";
+	color:#e71f8d;
+	line-height: 20px;
+}
+.logining li ul li:nth-child(3){
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-left:2px solid #f0f0f0;
+	border-right:2px solid #f0f0f0;
+}
+.logining li ul li:nth-child(3) span{
+	color:#fcdf28;
+}
+.main,footer{
+	background-color: #f3e8dc;
+}
+.mainBor{
+	background-image: url(../images/border_23.png);
+	background-repeat: repeat-x;
+}
+.mainBor-inner{
+	height: 31px;
+}
+/*.main-inner{
+	padding-bottom: 35px;
+}*/
+footer{
+	padding-top: 35px;
+}
+.footer-inner{
+	background-color: white;
+	box-shadow:0 0 2px #d9cfc4;
+	margin: 0 auto;
+/*	margin-top: 35px;*/
+	border-radius: 5px;
+	padding-bottom: 30px;
+	/*overflow:hidden;*/
+}
+/*.footerTop{
+	overflow:hidden;
+}*/
+h4{
+	color:#72bcde;
+	margin: 10px 0px;
+}
+.website{
+	float:left;
+	margin-right: 50px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+}
+.website ul{
+	/*width: 200px;*/
+	list-style-type: disc;
+	margin-left: 20px;
+}
+.website ul li a{
+	line-height: 1.5em;
+}
+.attention{
+	float:left;
+/*	margin-left: 30px;*/
+}
+.attention img{
+	margin-top: 3px;
+	margin-right: 3px;
+}
+.yunLogo{
+	float:right;
+	margin-right: 34px;
+	margin-top: 47px;
+}
+.yunLogo img{
+	width: 57px;
+	/*float:right;*/
+}
+.friendShip-link{
+	overflow:hidden;
+	width: 960px;
+	border-top:1px dashed #bfbfbf;
+	border-bottom:1px dashed #bfbfbf;
+}
+.friendShip-link ul li{
+	float:left;
+	line-height: 38px;
+	margin-right: 20px;
+}
+.friendShip-link ul li:first-child{
+	margin-left: 20px;
+}
+.friendShip-link ul li:last-child{
+	float:right;
+	margin-right: 34px;
+}
+footer p{
+	width: 465px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+
+

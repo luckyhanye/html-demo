@@ -1,0 +1,375 @@
+.headerTop{
+	background-image: url(../images/hdBJ_02.png);
+}
+.headerTop p{
+	color:#ff7297;
+}
+.mainNav,.description{
+	width: 959px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: white;
+	/*overflow:hidden;*/
+	box-shadow:0 0 2px 2px #d9cfc4;
+	margin-top: 22px;
+	padding:7px 0;
+}
+/*.mainNav{
+	position:relative;
+}*/
+/*.description{
+	font-size: 14px;
+}*/
+.mainNav>ul{
+	/*overflow:hidden;*/
+	float:left;
+	margin-left: 10px;
+}
+.mainNav>ul .navLi{
+	float:left;
+	padding-left: 26px;
+	padding-right: 24px;
+	border-right:1px solid #ddd;
+}
+
+/*.mainNav>ul */.navLi>img{
+	position:relative;
+	left:8px;
+	bottom:0px;
+	display:none;
+}
+/*.mainNav>ul .navLi:nth-child(5) img{
+	display:block;
+}*/
+/*.mainNav>ul .navLi:nth-child(5) .description{
+	display:block;
+}*/
+/*.mainNav ul li:nth-child(5) .navA{
+	color:#ff6699;
+}*/
+.mainNav>ul .navLi:first-child{
+	padding-left: 0;
+}
+.mainNav>ul .navLi .navA{
+	color:black;
+	line-height: 21px;
+}
+.mainNav>ul .navLi .navA:hover{
+	color:#ff6699;
+}
+.mainNav>img{
+	display:block;
+	float:left;
+	margin-left: 15px;
+}
+.main-inner{
+	position:relative;
+}
+.description{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	position:absolute;
+	left:0px;
+	top: 30px;
+	display:none;
+}
+.empty{
+	width: 960px;
+	height: 178px;
+	margin: 0 auto;
+	margin-top: 18px;
+	margin-bottom: 10px;
+}
+.genre{
+	margin-left: 15px;
+	margin-right: 35px;
+	float:left;
+}
+.genreTitle{
+	color:#ff6e9f;
+	/*margin-top: 10px;*/
+	margin-bottom: 20px;
+	/*margin-left: ;*/
+	font-size: 18px;
+}
+.genre>ul>li{
+	float:left;
+}
+.danXie>li:nth-child(2){
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.fashion>li:first-child{
+	margin-right: 20px;
+}
+.pinPai li,.changJing li{
+	clear:both;
+}
+i{
+	font-style: normal;
+	color:#ff6e9f;
+}
+h3{
+	color:#4caad5;
+	font-size: 28px;
+	line-height: 68px;
+	margin-left: 14px;
+	font-family: "宋体";
+	float:left;
+}
+.paiXu,.color,.price{
+	float:left;
+	margin-top: 23px;
+	margin-left: 20px;
+}
+.paiXu li,.price li,.color li{
+	float:left;
+}
+.paiXu li:nth-child(2),.paiXu li:nth-child(3){
+	width: 42px;
+	border:1px solid #888;
+}
+.paiXu li:nth-child(2){
+	border:1px solid #ffc2d9;
+	border-right:none;
+	border-radius: 15px 0 0 15px;
+	background: linear-gradient(white,#ffe3ee);
+}
+.paiXu li:nth-child(3){
+	border-radius: 0 15px 15px 0;
+	background: linear-gradient(white,#eee);
+}
+.paiXu li a{
+	line-height: 21px;
+	text-align:center;
+	color:#ff70a7;
+}
+.paiXu li:nth-child(3) a{
+	color:#888;
+}
+.price li,.color li{
+	border:1px solid #888;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: linear-gradient(white,#eee);
+}
+.price li:first-child{
+	border:none;
+	background: none;
+	padding: 0;
+}
+.price li:nth-child(6){
+	border-radius: 0 15px 15px 0;
+}
+.price li:nth-child(2){
+	border-radius:15px 0 0 15px;
+	border:1px solid #ffc2d9;
+	background: linear-gradient(white,#ffe3ee);
+}
+.color li{
+	padding: 3px 5px;
+}
+.color li:first-child{
+	padding: 0;
+	border:none;
+	background: none;
+}
+.color li:nth-child(2){
+	border-radius: 15px 0 0 15px;
+}
+.color li:last-child{
+	border-radius: 0 15px 15px 0;
+}
+.color a{
+	width: 16px;
+	height: 15px;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+.color .yellow,.color .black{
+	width: 22px;
+}
+.color .yellow{
+	border-radius: 15px 0 0 15px;
+	background-color: #fcdd47;
+}
+.color .blue{
+	background-color: #189dda;
+}
+.color .green{
+	background-color: #314a30;
+}
+.color .red{
+	background-color: #f03f4c;
+}
+.color .brown{
+	background-color: #bc7315;
+}
+.color .rose{
+	background-color: #e41b8e;
+}
+.color .black{
+	border-radius:  0 15px 15px 0;
+	background-color: black;
+}
+.pic{
+	clear:both;
+	margin: 0 auto;
+}
+.pic>li{
+	float:left;
+	margin-left: 16px;
+}
+.pic>li:first-child{
+	margin-left: 0;
+}
+.pic>li>div{
+	width: 200px;
+	border-radius:5px;
+	padding: 13px;
+	background-color: white;
+	/*overflow:hidden;*/
+	margin-bottom: 60px;
+	box-shadow:0 0 4px #d9cfc4;
+}
+.pic>li>div>p{
+	font-size: 13px;
+	margin-top: 20px;
+}
+.firstPic{
+	position:relative;
+}
+.pic>li>div>img{
+	width: 200px;
+}
+.pic li a{
+	width: 53px;
+	font-size: 14px;
+	line-height: 23px;
+	text-align:center;
+	border-radius: 5px;
+	color:white;
+	background-color: #ff3e65;
+	position:absolute;
+	right:25px;
+	top:190px;
+}
+.pic li>div>span{
+	display:block;
+	width: 40px;
+	font-size: 12px;
+	line-height: 14px;
+	text-align:center;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.4);
+	position:absolute;
+	right:31px;
+	top:218px;
+}
+.love{
+	width: 53px;
+	border-radius: 5px;
+	background-color: #ff87b5;
+	font-size: 14px;
+	text-align:center;
+	line-height: 23px;
+	color:white;
+	margin-top: 30px;
+	float:left;
+}
+.love:hover{
+	cursor:pointer;
+}
+.love span{
+	font-family: "iconfont";
+	color:#fc5292;
+	line-height: 23px;
+}
+.goodsPic:hover{
+	cursor:pointer;
+}
+.number{
+	width: 30px;
+	border:1px solid #ff87b5;
+	line-height: 21px;
+	text-align: center;
+	font-size: 14px;
+	float:left;
+	margin-top: 30px;
+	margin-left: 5px;
+	border-radius: 5px;
+	color:#ff87b5;
+}
+
+.pic .firstPic>p{
+	float:left;
+	color:#ff76ce;
+	font-size: 14px;
+	margin-top: 32px;
+	margin-left: 10px;
+}
+.comment{
+	clear:both;
+	width: 208px;
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	margin-left: -9px;
+	padding: 10px 5px;
+	line-height: 1.5em;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.comment img{
+	float:left;
+	margin-top: 4px;
+}
+.firstPic .comment{
+	margin-top: 65px;
+}
+.firstPic .comment p{
+	font-size: 14px;
+/*	margin: 20px auto;*/
+}
+.firstPic .comment span{
+	color:#ff69a2;
+}
+.page{
+	position:relative;
+}
+.page ul{
+	margin-left: 290px;
+	margin-top: 50px;
+}
+.page ul li{
+	float:left;
+}
+.page ul li a{
+	/*width: 22px;*/
+	padding: 0 8px;
+	line-height: 22px;
+	text-align:center;
+	border:1px solid #fcc8d9;
+	margin-right: 15px;
+	color:#ff67a6;
+}
+.page ul li a:hover{
+	color:black;
+	border:1px solid white;
+	background-color: #f3e8dc;
+}
+.page ul li:first-child a,.page ul li:nth-child(7) a{
+	color:black;
+	border:1px solid white;
+	background-color: #f3e8dc;
+}
+.page img{
+	position:absolute;
+	right:160px;
+	bottom:10px;
+}
+.mainNav>ul .navLi .changeColor{
+	color:#ff6699;
+}
+.navLi .display{
+	display:block;
+}

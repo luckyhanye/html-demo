@@ -1,0 +1,14 @@
+@font-face {
+  font-family:'icon';
+  src: url(../font/icon/iconfont.ttf),
+  url(../font/icon/iconfont.svg),
+  url(../font/icon/iconfont.woff),
+  url(../font/icon/iconfont.eot);
+}
+@font-face {
+  font-family:'arrow';
+  src: url(../font/arrow/iconfont.ttf),
+  url(../font/arrow/iconfont.svg),
+  url(../font/arrow/iconfont.woff),
+  url(../font/arrow/iconfont.eot);
+}

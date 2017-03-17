@@ -1,0 +1,90 @@
+.left{
+	overflow:hidden;
+	float:left;
+	margin-right: 21px;
+}
+.Gallery{
+	width: 619px;
+	margin-left: 28px;
+	border-bottom: 1px dashed #3c3d3d;
+	margin-bottom: 18px;
+	overflow:hidden;
+	padding-bottom: 31px;
+	border:none;
+}
+h2{
+	font-family: Times;
+	font-size: 32px;
+	/*line-height: 11px;*/
+	color:white;
+	margin-bottom: 19px;
+}
+.Gallery>img{
+	width: 600px;
+	margin-bottom: 10px;
+}
+.PICA img,.PICB img{
+	width: 180px;
+	float:left;
+}
+.PICA,.PICB{
+	margin-top: 30px;
+	overflow:hidden;
+}
+.PICA img:nth-child(2),.PICB img:nth-child(2){
+	margin-left: 29px;
+	margin-right: 29px;
+}
+.PICB{
+	margin-bottom: 30px;
+}
+.right{
+	float:right;
+	width: 300px;
+}
+article{
+	padding-bottom: 39px;
+}
+h3{
+	width: 300px;
+	line-height: 48px;
+	font-size: 25px;
+	font-family: Times;
+	color:white;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.5);
+	text-indent: 22px;
+}
+article p{
+	margin-left: 20px;
+	color:#7f7f7f;
+	line-height: 23px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.right ul{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.right ul li{
+	width: 280px;
+	border-bottom:1px dashed #3c3d3d;
+	background-image: url(../images/arrowWhite_12.png);
+	background-repeat: no-repeat;
+	list-style-position:inside;
+	background-position: 5px 14px;
+}
+.right ul li a{
+	color:white;
+	line-height: 34px;
+	font-style:italic;
+	text-indent: 15px;
+}
+.right ul li:last-child{
+	border:none;
+}
+.right span{
+	font-style: normal;
+	margin-right: 20px;
+}
