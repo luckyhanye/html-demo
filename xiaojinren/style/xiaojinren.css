@@ -15,7 +15,7 @@ html,body{
 	width:100%;
 	}*/
 .contain{/*1349*/
-	min-width:75.61%/*1020px*/;
+	min-width:75.6%/*1020px*/;
 	}
 .header{
 	width: 71.16%/*960px*/;
@@ -100,7 +100,7 @@ h4{
 .aside-left-ul{
 	width: 100%;
 	}
-	
+
 .aside-left-ul li{
 	width: 41.66%/*100px*/;
 	float:left;
