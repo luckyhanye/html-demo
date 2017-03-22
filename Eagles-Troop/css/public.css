@@ -40,7 +40,7 @@ nav>ul{
 	/*width: 455px;*/
 	/*margin-left: 29px;*/
 	/*float:left;*/
-	
+
 }
 nav>ul>li{
 	display:table-cell;
@@ -187,4 +187,3 @@ section span{
     clear: both;
     visibility: hidden;
 }
-
