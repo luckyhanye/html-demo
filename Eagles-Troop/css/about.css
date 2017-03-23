@@ -53,6 +53,19 @@ h2{
 	color:white;
 	margin-bottom: 19px;
 }
+.next .top{
+	overflow:hidden;
+	border-bottom:1px dashed #3c3d3d;
+	padding-bottom:30px;
+	margin-bottom:30px;
+
+}
+.next .top a{
+	margin-left: 80px;
+}
+.next .bottom a{
+	margin-left: 80px;
+}
 .next .top img{
 	width: 60px;
 	float:left;
